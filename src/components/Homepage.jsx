@@ -6,7 +6,7 @@ function Homepage() {
   return (
     <div className="h-screen w-full bg-[#0a192f] text-gray-200">
       <Pagenav />
-      <div className="mx-auto flex h-[90%] max-w-screen-2xl flex-col items-center justify-center md:flex-row">
+      <div className="mx-auto flex h-[90%] max-w-screen-xl flex-col items-center justify-center md:flex-row">
         <div className="flex flex-col justify-center py-9">
           <h2 className="px-4 text-4xl font-bold sm:text-7xl">
             I am a Front-End Developer
@@ -25,7 +25,7 @@ function Homepage() {
           <img
             src={profile}
             alt="my profile"
-            className="mx-auto w-2/3 rounded-2xl md:w-full"
+            className="mx-auto w-[90%] rounded-2xl md:w-full"
           />
         </div>
       </div>

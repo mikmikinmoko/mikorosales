@@ -36,7 +36,7 @@ function Porjects() {
   return (
     <div className="h-screen w-full bg-[#0a192f]">
       <Pagenav />
-      <div className=" mx-auto flex w-full max-w-screen-2xl flex-col justify-center p-4 text-white">
+      <div className=" mx-auto flex w-full max-w-screen-xl flex-col justify-center p-4 text-white">
         <div>
           <p className="inline border-b-4 border-gray-500 p-2 text-4xl font-bold">
             Projects

@@ -56,7 +56,7 @@ function Skills() {
   return (
     <div className="h-screen w-full bg-[#0a192f]">
       <Pagenav />
-      <div className="mx-auto flex w-full max-w-screen-2xl flex-col justify-center p-4 text-white">
+      <div className="mx-auto flex w-full max-w-screen-lg flex-col justify-center p-4 text-white">
         <div>
           <p className="inline border-b-4 border-gray-500 p-2 text-4xl font-bold">
             Skills
@@ -66,7 +66,7 @@ function Skills() {
           </p>
         </div>
 
-        <div className="grid w-full grid-cols-3 gap-8 px-12 py-8 text-center sm:grid-cols-3 sm:px-0">
+        <div className="grid w-full grid-cols-3 gap-8 px-8 py-8 text-center sm:grid-cols-4 sm:px-0">
           {techs.map(({ id, src, title, style }) => {
             return (
               <div
