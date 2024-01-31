@@ -56,7 +56,7 @@ function Skills() {
   return (
     <div className="h-screen w-full bg-[#0a192f]">
       <Pagenav />
-      <div className="mx-auto flex w-full max-w-screen-lg flex-col justify-center p-4 text-white">
+      <div className="mx-auto flex w-full max-w-screen-2xl flex-col justify-center p-4 text-white">
         <div>
           <p className="inline border-b-4 border-gray-500 p-2 text-4xl font-bold">
             Skills
@@ -73,7 +73,7 @@ function Skills() {
                 key={id}
                 className={`round-lg py-2 shadow-md duration-500 hover:scale-105 ${style}`}
               >
-                <img src={src} alt={title} className="mx-auto w-20" />
+                <img src={src} alt={title} className="mx-auto w-40" />
                 <p className="mt-4">{title}</p>
               </div>
             );
